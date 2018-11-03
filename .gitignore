@@ -1,0 +1,12 @@
+# Project dependencies
+.cache
+.babelrc
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+.DS_Store
+
+/build
+/dist
