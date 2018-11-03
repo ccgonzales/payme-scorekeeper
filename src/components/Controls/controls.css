@@ -1,0 +1,37 @@
+.controlContainer {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  margin: 1rem;
+}
+
+.startGame__btn {
+  background-color: #45B384;
+  animation: pulse 3s infinite;
+  margin: 0 1rem;
+  font-family: Oswald;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  width: 60vw;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #45B384;
+  }
+  50% {
+    background-color: #57E3A7;
+  }
+  100% {
+    background-color: #45B384;
+  }
+}
+
+.nextRound__btn {
+  background-color: #45B384;
+  margin: 0 1rem;
+  font-family: Oswald;
+  font-size: 1rem;
+  border-radius: 3px;
+  width: 50vw;
+}

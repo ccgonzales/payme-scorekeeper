@@ -1,0 +1,37 @@
+body {
+  background-color: #F2E382;
+  margin: 0;
+}
+
+.game__title {
+  font-family: Lobster, cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #033360;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.game__subtitle {
+  font-family: Oswald, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: #033360;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media (max-device-width: 480px)
+  and (orientation: portrait) {
+
+  .game__title {
+    font-size: 25vw;
+    margin-top: 20px;
+
+  }
+
+  .game__subtitle {
+    font-size: 15vw;
+    margin-top: 0;
+  }
+}

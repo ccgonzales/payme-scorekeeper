@@ -1,0 +1,46 @@
+.addPlayer {
+  display: flex;
+  align-items:  center;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+
+.addPlayer__input {
+  font-family: Oswald, sans-serif;
+  font-size: 1rem;
+}
+
+.addPlayer__btn {
+  background-color: #45B384;
+  margin: 0 1rem;
+  font-family: Oswald;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+.addPlayer__instruct {
+    font-family: Oswald, sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.playerList {
+  display: flex;
+  flex-direction: column;
+  margin: auto 10%;
+}
+
+.playerList__title {
+  font-family: Oswald, sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.playerList__list {
+  margin-left: 1rem;
+}
+
+.playerList__item {
+  font-family: Oswald, sans-serif;
+  font-size: 1.25rem;
+}

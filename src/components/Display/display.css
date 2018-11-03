@@ -1,0 +1,26 @@
+.header {
+  background-color: #033360;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.header__text {
+  font-family: Lobster, cursive;
+  font-size: 1.5rem;
+  color: #F2E382;
+  width: 80vw;
+  margin: 0.5rem;
+
+}
+.header__subtext {
+  font-family: Oswald, sans-serif;
+  font-size: 1.25rem;
+  color: #F2E382;
+  margin-left: .5rem;
+}
+
+
+@media (max-device-width: 480px) {
+
+}
