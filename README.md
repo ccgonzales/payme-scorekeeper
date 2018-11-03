@@ -1,5 +1,5 @@
-<h1>Payme Scorekeeper</h1>
-<p>This app assists in playing the card game, Payme. It has the following features:
+<h1>Pay Me Scorekeeper</h1>
+<p>This app assists in playing the card game, Pay Me. It has the following features:
 <ul>
     <li>Track player names</li>
     <li>Remember players' round score</li>
